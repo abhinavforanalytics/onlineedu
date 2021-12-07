@@ -1,6 +1,6 @@
 import os
 
-from ingestors.ingestor_interface import IngestorInterface, extensions
+from ingestors.Ingestor import IngestorInterface, extensions
 from ingestors.text_ingestor import TextIngestor
 from ingestors.docx_ingestor import DocxIngestor
 from ingestors.pdf_ingestor import PDFIngestor
